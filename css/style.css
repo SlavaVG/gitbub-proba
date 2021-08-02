@@ -1,4 +1,24 @@
 body {
-  background-color: rgb(94, 128, 0);
-  color: rgb(231, 19, 19);
+  font-family: "Oleo Script", cursive;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f7fa;
+}
+
+.main_container_top_line {
+  /* display: flex;
+    flex-direction: row-reverse;
+    position: absolute; */
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background-color: #f07502;
+}
+
+.WebStudio_Web {
+  color: teal;
+}
+.Studiya {
+  color: rgb(74, 71, 255);
 }
