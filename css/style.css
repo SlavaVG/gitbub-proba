@@ -16,9 +16,26 @@ body {
   background-color: #f07502;
 }
 
-.WebStudio_Web {
-  color: teal;
+.top_line_webstudio{
+    display: flex;
+    flex-direction: row;
+    /* margin: 215px 24px 0px 0; */
+    padding: 215px 24px 0 0px;
+    
+    width: 145px;
+    height: 31px;
+    top: 24px;
+    left: 215px;
+
 }
-.Studiya {
-  color: rgb(74, 71, 255);
+
+.webstudio_web {
+  color: #2196F3;
 }
+.webstudio_studio {
+  color: #0000000;
+}
+
+/* font-family: 'Oleo Script', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
