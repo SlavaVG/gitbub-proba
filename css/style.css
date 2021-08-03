@@ -5,6 +5,16 @@ body {
   background-color: #f5f7fa;
 }
 
+.main_container{
+/* Главная */
+position: relative;
+width: 1600px;
+height: 2349px;
+
+background: #FFFFFF;
+}
+
+
 .main_container_top_line {
   /* display: flex;
   flex-direction: row-reverse; */
@@ -59,7 +69,8 @@ width: 1600px;
 height: 648px;
 left: 0px;
 top: 1449px;
-background: #F5F4FA;
+/* background: #F5F4FA; */
+background: #046e5d9c;
 margin: 0px 0px 0px 0px;
 }
 
