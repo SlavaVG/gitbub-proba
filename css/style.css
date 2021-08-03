@@ -7,19 +7,22 @@ body {
 
 .main_container_top_line {
   /* display: flex;
-    flex-direction: row-reverse;
-    position: absolute; */
+  flex-direction: row-reverse; */
+  position: absolute;
   width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
   background-color: #f07502;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
 }
 
 .top_line_webstudio{
     display: flex;
     flex-direction: row;
-    /* margin: 215px 24px 0px 0; */
+    
     padding: 0px 0px 0px 215px;
 
     font-size: 26px;
@@ -30,14 +33,43 @@ body {
     height: 31px;
     top: 24px;
     left: 215px;
-
 }
 
 .webstudio_web {
   color: #2196F3;
 }
 .webstudio_studio {
-  color: #0000000;
+  color: #000000;
+}
+
+.main_container_decision{
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+margin: 0px 0px 0px 0px;
+
+}
+
+.main_container_ourteam{
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+background: #F5F4FA;
+margin: 0px 0px 0px 0px;
+}
+
+.main_container_basement{
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
 }
 
 /* font-family: 'Oleo Script', cursive;
