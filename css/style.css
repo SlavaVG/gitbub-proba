@@ -5,15 +5,14 @@ body {
   background-color: #f5f7fa;
 }
 
-.main_container{
-/* Главная */
-position: relative;
-width: 1600px;
-height: 2349px;
+.main_container {
+  /* Главная */
+  position: relative;
+  width: 1600px;
+  height: 2349px;
 
-background: #FFFFFF;
+  background: #ffffff;
 }
-
 
 .main_container_top_line {
   display: flex;
@@ -23,107 +22,147 @@ background: #FFFFFF;
   height: 80px;
   left: 0px;
   top: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
-    /* WebStudio */
-    .top_line_webstudio{
-        display: flex;
-        flex-direction: row;
+/* WebStudio */
+.top_line_webstudio {
+  display: flex;
+  flex-direction: row;
 
-      position: absolute;
-      width: 145px;
-      height: 31px;
-      left: 215px;
-      top: 00px; /* 24px , но попускает слишком: считает от границы не того контейнера*/
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 00px; /* 24px , но попускает слишком: считает от границы не того контейнера*/
 
-      font-family: Raleway;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 26px;
-      line-height: 31px;
-      /* identical to box height */
-      letter-spacing: 0.03em;
-      /* color: #43637c; */
-    }
-
-      .webstudio_web {
-        color: #2196F3;
-      }
-      .webstudio_studio {
-        color: #000000;
-      }
-
-    /* Menu Nav */
-    .top_line_menu{
-      display: flex;
-      flex-direction: row;
-      position: absolute;
-      width: 294px;
-      height: 16px;
-      left: 0px;  /* в макете 453, но далеко*/ 
-      top: 24px; /* в макете 32, но низко*/ 
-
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-      color: #212121;
-    }
-        .top_line_menu_Studiya{
-        position: absolute;
-        width: 49px;
-        height: 16px;
-        left: 453px;
-        top: 00px;/* в макете 32, но низко*/ 
-     
-        }
-        .top_line_menu_Portofolio{
-        position: absolute;
-        width: 77px;
-        height: 16px;
-        left: 552px;
-        top: 00px;/* в макете 32, но низко*/ 
-
-        }
-        .top_line_menu_Kontakt{
-        position: absolute;
-        width: 68px;
-        height: 16px;
-        left: 679px;
-        top: 00px;/* в макете 32, но низко*/ 
-
-        }
-.main_container_decision{
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-background: #2F303A;
-margin: 0px 0px 0px 0px;
-
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  /* color: #43637c; */
 }
 
-.main_container_ourteam{
-position: absolute;
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1449px;
-/* background: #F5F4FA; */
-background: #046e5d9c;
-margin: 0px 0px 0px 0px;
+.webstudio_web {
+  color: #2196f3;
+}
+.webstudio_studio {
+  color: #000000;
 }
 
-.main_container_basement{
+/* Menu Nav */
+.top_line_menu {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 0px; /* в макете 453, но далеко*/
+  top: 24px; /* в макете 32, но низко*/
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.top_line_menu_Studiya {
+  position: absolute; 
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 00px; /* в макете 32, но низко*/
+}
+.top_line_menu_Studiya_Link {
+  font-style: normal;
+  color: #2196f3;
+  text-decoration: none;
+}
+.top_line_menu_Portofolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 00px; /* в макете 32, но низко*/
+}
+.top_line_menu_Kontakt {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 00px; /* в макете 32, но низко*/
+}
+.top_line_E-mail_Link{
 position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-background: #2F303A;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+text-decoration: none;
+
+}
+
+.top_line_Telefon_Txt{
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+text-decoration: none;
+
+}
+
+
+.main_container_decision {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+  margin: 0px 0px 0px 0px;
+}
+
+.main_container_ourteam {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  /* background: #F5F4FA; */
+  background: #046e5d9c;
+  margin: 0px 0px 0px 0px;
+}
+
+.main_container_basement {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
 }
 
 /* font-family: 'Oleo Script', cursive;
