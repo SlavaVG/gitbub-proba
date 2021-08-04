@@ -14,6 +14,7 @@ body {
   background: #ffffff;
 }
 
+/* Start Top Line */
 .main_container_top_line {
   display: flex;
   flex-direction: row;
@@ -134,8 +135,8 @@ text-decoration: none;
 
 }
 
-
-/* Bg */
+/* End Top Line */
+/*+++ Start Decision +++*/
 
 .main_container_decision {
   position: absolute;
@@ -192,7 +193,107 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 
 }
+/*===== end Decision ====*/
+/*+++ Start Features +++*/
+.main_container_litl_boxes{
+  display: flex;
+  flex-direction: row;
+position: absolute;
+width: 1170px;
+height: 101px;
+left: 215px;
+top: 772px;
+background-color: lightcoral;
+}
 
+.litl_boxes{
+/* position: absolute; */
+width: 270px;
+height: 101px;
+/* left: 215px;
+top: 772px; */
+margin: 00px 30px 0px 0px;
+}
+.litl_boxes_head{
+position: absolute;
+width: 270px;
+height: 16px;
+/* left: 215px;
+top: 772px; */
+margin: 0px 0px 0px 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+
+}
+.litl_boxes_txt{
+position: absolute;
+width: 270px;
+height: 75px;
+/* left: 215px;
+top: 798px; */
+margin: 26px 0px 0px 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*=== End Features ===*/
+/*+++ Start We doing +++*/
+
+.main_container_we_doing{
+   display: flex;
+  flex-direction: column;
+position: absolute;
+width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
+background-color: khaki;
+}
+
+.we_doing_head{
+position: absolute;
+width: 377px;
+height: 42px;
+/* left: 612px;
+top: 969px; */
+margin: 0px 0px 0px 397px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.we_doing_box{
+   display: flex;
+  flex-direction: row;
+}
+.we_doing_box_picture{
+  width: 370px;
+  height: 294px;
+  margin: 92px 30px 0px 0px;
+}
+
+/*===== End We doing ====*/
 .main_container_ourteam {
   position: absolute;
   width: 1600px;
