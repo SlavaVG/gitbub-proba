@@ -234,7 +234,7 @@ color: #212121;
 
 }
 .litl_boxes_txt{
-position: absolute;
+/* position: absolute; */
 width: 270px;
 height: 75px;
 /* left: 215px;
@@ -281,7 +281,6 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
-
 }
 .we_doing_box{
    display: flex;
@@ -322,8 +321,6 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
-
-
 }
 .our_team_box{
    display: flex;
@@ -351,6 +348,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 0px 0px 4px 4px;
 margin: 0px 30px 0px 0px;
 }
+
 .our_team_box_picture{
 /* position: absolute; */
 width: 270px;
@@ -401,11 +399,10 @@ letter-spacing: 0.03em;
 
 color: #757575;
 margin: 10px 0px 0px 70px;
-
-
-
 }
 /*=== End Our Team ===*/
+
+
 .main_container_basement {
   position: absolute;
   width: 1600px;
