@@ -294,17 +294,118 @@ color: #212121;
 }
 
 /*===== End We doing ====*/
-.main_container_ourteam {
+/*+++ Start Our Team +++*/
+.main_container_our_team {
   position: absolute;
   width: 1600px;
   height: 648px;
   left: 0px;
   top: 1449px;
   /* background: #F5F4FA; */
-  background: #046e5d9c;
-  margin: 0px 0px 0px 0px;
+  background: #6e04609c;
+  /* margin: 0px 0px 0px 0px; */
+}
+.our_team_head{
+position: absolute;
+width: 265px;
+height: 42px;
+/* left: 653px;
+top: 1543px; */
+margin: 94px 0px 0px 683px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+
+}
+.our_team_box{
+   display: flex;
+  flex-direction: row;
+position: absolute;
+width: 1170px;
+height: 368px;
+/* left: 230px;
+top: 1633px; */
+margin: 186px 30px 0px 230px;
+background-color: khaki;
 }
 
+.our_team_card{
+/* position: absolute; */
+width: 270px;
+height: 368px;
+/* left: 230px;
+top: 1633px; */
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+margin: 0px 30px 0px 0px;
+}
+.our_team_box_picture{
+/* position: absolute; */
+width: 270px;
+height: 260px;
+/* left: 230px;
+top: 1633px; */
+
+background: url(4853.jpg);
+border-radius: 0px;
+}
+.our_team_FIO{
+/* position: absolute; */
+width: 152px;
+height: 19px;
+/* left: 290px;
+top: 1923px; */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+margin: 30px 0px 0px 60px;
+}
+
+.our_team_Position{
+/* position: absolute; */
+width: 131px;
+height: 19px;
+/* left: 300px;
+top: 1952px; */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+margin: 10px 0px 0px 70px;
+
+
+
+}
+/*=== End Our Team ===*/
 .main_container_basement {
   position: absolute;
   width: 1600px;
