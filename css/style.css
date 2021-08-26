@@ -24,6 +24,7 @@ body {
   left: 0px;
   top: 0px;
   background: #ffffff;
+  /* background: #98d7f0; */
 }
 /* WebStudio */
 .top_line_webstudio {
@@ -34,7 +35,7 @@ body {
   width: 145px;
   height: 31px;
   left: 215px;
-  top: 00px; /* 24px , но попускает слишком: считает от границы не того контейнера*/
+  top: 24px; 
 
   font-family: Raleway;
   font-style: normal;
@@ -43,7 +44,7 @@ body {
   line-height: 31px;
   /* identical to box height */
   letter-spacing: 0.03em;
-  /* color: #43637c; */
+  /* color: #7ee2a4; */
 }
 
 .webstudio_web {

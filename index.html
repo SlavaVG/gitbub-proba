@@ -10,23 +10,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-
+      rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css"/>
     <script src="js/script.js"></script>
   </head>
   <body>
     <!-- main container -->
-    <div class="main_container">
-      <div class="main_container_top_line">
+    <section class="main_container">
+      <header class="main_container_top_line">
+      <nav>
         <div class="top_line_webstudio">
-          <p>
-            <span class="webstudio_web">Web</span
-            ><span class="webstudio_studio">Studio</span>
-          </p>
+            <span class="webstudio_web">Web</span>
+            <span class="webstudio_studio">Studio</span>
         </div>
-        <nav class="top_line_menu">
+        <div class="top_line_menu">
           <p class="top_line_menu_Studiya">
             <a
               href="https://pokupon.ua/kiev/merchant_pages/114678-yao-records" target="_blank"
@@ -35,7 +32,7 @@
           </p>
           <p class="top_line_menu_Portofolio">Портофолио</p>
           <p class="top_line_menu_Kontakt">Контакты</p>
-        </nav>
+        </div>
         <div class="top_line_E-mail">
             <a
               href="mailto:info@devstudio.com"
@@ -47,12 +44,14 @@
             class="top_line_Telefon_Txt"
             >+38 096 111 11 11</a>
         </div>
-      </div>
-      <div class="main_container_decision">
-        <div class="main_container_decision_txt">Эффективные решения для вашего бизнеса</div> 
+      </nav>
+      </header>
+    <main>
+      <section class="main_container_decision">
+        <h1 class="main_container_decision_txt">Эффективные решения для вашего бизнеса</h1> 
         <button class="main_container_decision_button">Заказать услугу</button>
-      </div>
-      <div class="main_container_litl_boxes">
+      </section>
+      <section class="main_container_litl_boxes">
         <div class="litl_boxes">
           <p class="litl_boxes_head">Внимание к деталям</P>
           <p class="litl_boxes_txt">Идейные соображения, а также начало повседневной работы по формированию позиции.</P>
@@ -69,8 +68,8 @@
           <p class="litl_boxes_head">Современные технологии</P>
           <p class="litl_boxes_txt">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</P>
         </div>
-      </div>
-      <div class="main_container_we_doing">
+      </section>
+      <section class="main_container_we_doing">
         <div class="we_doing_head">Чем мы занимаемся</div>
         <div class="we_doing_box">
           <img class="we_doing_box_picture"
@@ -83,8 +82,8 @@
                 src="picture/img-2.png"
                 alt="Собираемся">
         </div>
-      </div>
-      <div class="main_container_our_team">
+      </section>
+      <section class="main_container_our_team">
         <div class="our_team_head">Наша команда</div>
         <div class="our_team_box">
           <div class="our_team_card">
@@ -116,8 +115,9 @@
             <p class="our_team_Position">UI Designer</P>
           </div>
         </div>
-      </div>
-      <div class="main_container_basement">
+      </section>
+    </main>
+      <footer class="main_container_basement">
         <div class="basement_webstudio">
           <p>
             <span class="basement_web">Web</span
@@ -138,7 +138,8 @@
             >+38 099 111 11 11</a>
         </div>
         </div>
-      </div>
-    </div>
+      </footer>
+    </main>
+    </section>
   </body>
 </html>
